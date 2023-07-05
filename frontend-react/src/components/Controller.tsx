@@ -1,9 +1,9 @@
-import React from 'react'
-
 function controller() {
 
   return (
-    <div>controller</div>
+    <div className="bg-green-500">
+      <button className="border border-black px-4 py-2 rounded-sm bg-indigo-500 text-white">Place Bet</button>
+    </div>
   )
 }
 
